@@ -19,7 +19,7 @@ public class PredicateExample2 {
 				System.out.println(instructor);
 		});
 		
-		System.out.println("-------------------");
+		
 		System.out.println("-------------------");
 		// instructor teaches Online and Exp is greater 4 years 
 		instructors.forEach(instructor -> {

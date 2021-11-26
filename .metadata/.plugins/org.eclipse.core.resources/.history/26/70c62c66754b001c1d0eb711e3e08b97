@@ -1,0 +1,11 @@
+package lamdas.beans;
+
+public class RunnableExample {
+
+	public static void main(String[] args) {
+		System.out.println("Started from MAIN");
+		
+		
+	}
+
+}

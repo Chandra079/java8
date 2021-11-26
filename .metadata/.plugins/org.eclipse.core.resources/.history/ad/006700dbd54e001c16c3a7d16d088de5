@@ -1,0 +1,11 @@
+package functionalInterfaces.beans;
+
+public class PredicateExample2 {
+
+	public static void main(String[] args) {
+		
+		//instructor whoteaches Online
+		
+	}
+
+}

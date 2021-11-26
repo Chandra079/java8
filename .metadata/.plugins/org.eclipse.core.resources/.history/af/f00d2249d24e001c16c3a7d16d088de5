@@ -1,0 +1,5 @@
+package functionalInterfaces.beans;
+
+public class Instructor {
+
+}

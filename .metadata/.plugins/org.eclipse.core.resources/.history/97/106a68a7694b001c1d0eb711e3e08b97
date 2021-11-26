@@ -1,0 +1,14 @@
+package lamdas.beans;
+
+@FunctionalInterface
+interface Motor{
+	public void start();
+}
+public class LamdaOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

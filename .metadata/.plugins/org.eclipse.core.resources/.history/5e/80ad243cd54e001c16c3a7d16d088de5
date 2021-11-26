@@ -1,0 +1,8 @@
+package functionalInterfaces.beans;
+
+import java.util.List;
+
+public class Instructors {
+	List<Instructor> instructors=null;
+
+}

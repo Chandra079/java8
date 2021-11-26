@@ -1,0 +1,40 @@
+package lamdas.beans;
+class UnkownException extends Exception{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public  UnkownException(String str) {
+		// TODO Auto-generated constructor stub
+		super(str);
+		System.out.println("In Exception Class");
+	
+	}
+	
+}
+
+public class RunnableExample {
+
+	public static void main(String[] args) {
+		System.out.println("Started from MAIN");
+		Runnable runnable =() -> {
+		
+			throw new UnkownException("LAMDA EXCeption");
+			for (int i = 0; i < 1000; i++) {
+				System.out.println("In Runnable Method");
+			}
+
+		};
+		try {
+		new Thread(runnable).start();
+		}catch(UnkownException ex) {
+			System.out.println(ex.printStackTrace());
+		}
+
+		for (int i = 0; i < 1000; i++) {
+			System.out.println("in Main Method");
+		}
+	}
+
+}

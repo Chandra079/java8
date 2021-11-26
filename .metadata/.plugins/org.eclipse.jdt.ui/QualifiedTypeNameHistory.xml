@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="corejava.beans.CaluculatePremium"/>
+    <fullyQualifiedTypeName name="corejava.beans.ShutDownHookLogic"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="corejava.beans.ShutDownHookLogicSystemExit"/>
+    <fullyQualifiedTypeName name="lamdas.beans.Motor"/>
+    <fullyQualifiedTypeName name="lamdas.beans.SumofTwo"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="lamdas.beans.RunnableInterface.UnkownException"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="lamdas.beans.UnkownException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+</qualifiedTypeNameHistroy>

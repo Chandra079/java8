@@ -1,0 +1,16 @@
+package lamdas.beans;
+
+interface Motor{
+	public void start();
+}
+interface DieselMotor extends Motor{
+	
+}
+public class LamdaOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

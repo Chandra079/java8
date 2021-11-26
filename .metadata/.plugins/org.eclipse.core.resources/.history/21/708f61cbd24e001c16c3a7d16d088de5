@@ -1,0 +1,13 @@
+package functionalInterfaces.beans;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class BiConsumerExample2 {
+
+	public static void main(String[] args) {
+		List<Instructor> instructors =Arrays.asList(new Instructor("Mike", "java", 3.4f),
+				new Instructor("John","C", 4),new Instructor("Riche", "Spring", 3));
+	}
+
+}

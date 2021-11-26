@@ -1,0 +1,14 @@
+package functionalInterfaces.beans;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Instructors {
+	List<Instructor> instructors=null;
+	
+	public List<Instructor> getAll() {
+		instructors = rrays.asList(new Instructor("Mike", "java", 3.4f),
+				new Instructor("John", "C", 4), new Instructor("Riche", "Spring", 3));
+	}
+
+}

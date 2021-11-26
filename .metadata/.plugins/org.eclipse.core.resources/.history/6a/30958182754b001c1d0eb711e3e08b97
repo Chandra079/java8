@@ -1,0 +1,17 @@
+package lamdas.beans;
+
+public class RunnableExample {
+
+	public static void main(String[] args) {
+		System.out.println("Started from MAIN");
+		
+		new Thread(()->{
+			for (int i = 0; i <1000; i++) {
+				System.out.println("In Runnable Method");
+			}
+			
+		};) .start();
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package functionalInterfaces.beans;
+
+public class Instructor {
+
+	private String name;
+	private String skill;
+	private float exp;
+	
+	
+}

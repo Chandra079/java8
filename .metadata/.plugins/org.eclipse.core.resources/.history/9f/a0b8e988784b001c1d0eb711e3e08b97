@@ -1,0 +1,5 @@
+package lamdas.beans;
+
+public interface RunnableInterface {
+
+}

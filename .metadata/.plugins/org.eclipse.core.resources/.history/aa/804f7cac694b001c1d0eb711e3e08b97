@@ -1,0 +1,13 @@
+package lamdas.beans;
+
+@FunctionalInterface
+interface Motor{
+	public void start();
+}
+public class LamdaOne {
+
+	public static void main(String[] args) {
+		Motor motot=()->System.out.println("MOtor Has Started");
+	}
+
+}

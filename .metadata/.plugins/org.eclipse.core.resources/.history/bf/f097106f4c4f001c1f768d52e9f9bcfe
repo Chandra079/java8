@@ -1,0 +1,15 @@
+package functionalInterfaces.beans;
+
+import java.util.Map;
+
+public class FunctionExample2 {
+	public static void main(String[] args) {
+		
+		//Map of Instructors with name as key and expe as value
+		//create Function which will take List<Instructor> as input then return Map.
+		
+		Map<String, Float> instructorsMap=null;
+		
+		
+	}
+}

@@ -1,0 +1,31 @@
+package functionalInterfaces.beans;
+
+import java.util.List;
+import java.util.function.Predicate;
+
+public class ConvertatoMethodRefernceExample {
+
+	public static void main(String[] args) {
+		List<Instructor> instructors = Instructors.getAll();
+
+
+		Predicate<Instructor> predicateExp = instructor -> instructor.getExp()>4;
+		Predicate<Instructor> predicateExp1 = ConvertatoMethodRefernceExample::greateThanFourYears;
+		
+		instructors.forEach(instructor->{
+			if(predicateExp1.test(instructor))
+				System.out.println(instructor);
+		});
+
+	}
+
+	public static boolean greateThanFourYears(Instructor in) {
+		if(in.getExp()>=4)
+			return true;
+		return false;
+	}
+	
+	public static boolean isOnline() {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package functionalInterfaces.beans;
+
+public class ConvertatoMethodRefernceExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}

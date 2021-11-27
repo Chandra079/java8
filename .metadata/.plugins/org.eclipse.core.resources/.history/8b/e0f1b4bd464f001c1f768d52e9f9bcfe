@@ -1,0 +1,13 @@
+package functionalInterfaces.beans;
+
+import java.util.function.Predicate;
+
+public class PredicateAndBiconsumerExample {
+
+	public static void main(String[] args) {
+		
+		// instructor who teaches online
+		Predicate<Instructor> p1 = i1->i1.isOnline();
+	}
+
+}
